@@ -1,0 +1,26 @@
+{
+  "name": "node-bootcamp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+   "start-dev":"nodemon main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faisal2410/node-bootcamp.git"
+  },
+  "keywords": [],
+  "author": "Faisal ahmed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/faisal2410/node-bootcamp/issues"
+  },
+  "homepage": "https://github.com/faisal2410/node-bootcamp#readme",
+  "dependencies": {
+    "slugify": "^1.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
