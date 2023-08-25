@@ -1,5 +1,5 @@
 module.exports=(temp,product)=>{
-    let output=temp.replace(/{%PRODUCTNAME%}/g,product.productName);
+    let output = temp.replace(/{%PRODUCTNAME%}/g, product.productName);
     output=output.replace(/{%IMAGE%}/g,product.image);
     output=output.replace(/{%PRICE%}/g,product.price);
     output=output.replace(/{%QUANTITY%}/g,product.quantity);

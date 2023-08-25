@@ -14,6 +14,7 @@ const dataObj=JSON.parse(data);
 const slugs=dataObj.map(el=>slugify(el.productName,{lower:true}))
 // console.log(slugs);
 // console.log(slugify("Fresh Avacados",{lower:true,trim:true}));
+
 // Server
 const server=http.createServer((req,res)=>{
     // console.log("url object=========>",req.url)
